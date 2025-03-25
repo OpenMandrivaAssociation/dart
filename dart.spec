@@ -19,6 +19,8 @@ The Dart SDK has the libraries and command-line tools that you need to develop D
 %autosetup -T -b 0 -n dart-sdk
 %elifarch aarch64
 %autosetup -T -b 1 -n dart-sdk
+%elifarch znver1
+%autosetup -T -b 0 -n dart-sdk
 %endif
 
 %install
