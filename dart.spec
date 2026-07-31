@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           dart
-Version:        3.7.2
+Version:        3.12.2
 Release:        1
 Summary:        Dart SDK
 License:        BSD
